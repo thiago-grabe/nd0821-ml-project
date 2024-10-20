@@ -113,3 +113,4 @@ mlruns/
 outputs/
 random_forest_dir/
 multirun/
+git_push.sh
