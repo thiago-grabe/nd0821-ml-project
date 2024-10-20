@@ -4,5 +4,3 @@ channels:
   - defaults
 dependencies:
   - mlflow=2.8.1
-  - pip:
-    - git+https://github.com/thiago-grabe/nd0821-ml-project.git#egg=wandb_utils&subdirectory=components
