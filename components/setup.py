@@ -2,7 +2,7 @@ from setuptools import setup
 
 
 setup(
-    name="wandb-utils",
+    name="wandb_utils",
     version=0.1,
     description="Utilities for interacting with Weights and Biases and mlflow",
     zip_safe=False,  # avoid eggs, which make the handling of package data cumbersome
@@ -12,7 +12,7 @@ setup(
         "Development Status :: 4 - Beta",
     ],
     install_requires=[
-        "mlflow",
-        "wandb"
+        "mlflow==2.8.1",
+        "wandb==0.16.0"
     ]
 )
