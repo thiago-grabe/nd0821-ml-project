@@ -8,4 +8,4 @@ dependencies:
   - pip:
       - mlflow==2.8.1
       - wandb==0.16.0
-      - git+https://github.com/thiago-grabe/nd0821-ml-project.git#egg=wandb_utils&subdirectory=components/wandb_utils
+      - git+https://github.com/thiago-grabe/nd0821-ml-project.git#egg=wandb_utils&subdirectory=components
